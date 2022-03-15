@@ -110,14 +110,28 @@ body{
     max-width: 100%;
 }
 .section2{
-    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-image: url(/backgrounds/c_image.jpg);
     height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 50px;
     position: relative;
     background-position: center;
-    padding-bottom: 50px;
-   
+    padding-bottom: 50px; 
 
+}
+.contact h2{
+    text-align: center;
+    color: white;
+}
+
+.contact {
+   color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+}
+input[type=text],input[type=email]{
+    background: transparent;
+    color: white;
 }
