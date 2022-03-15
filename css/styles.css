@@ -11,7 +11,7 @@ body{
     height: inherit;
 }
 .top{
-    background-image:url('../assets/backgrounds/h_img.jpg') ;
+    background-image:url('/backgrounds/h_img.jpg') ;
     position: relative;
     background-repeat: no-repeat;
     background-size: contain;
@@ -44,6 +44,20 @@ body{
 .about{
     text-align: center;
     bottom: 30px;
+ 
+}
+.section{
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    height: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
     
-    
+}
+.services{
+    text-align: center;
+    padding-top: 20vh;
+    color: white;   
+
 }
