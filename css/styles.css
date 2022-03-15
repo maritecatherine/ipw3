@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    overflow-x: hidden;   
+}
+.content{
+    height: inherit;
+}
+.top{
+    background-image:url('../assets/backgrounds/h_img.jpg') ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 130vh;
+    
+}
