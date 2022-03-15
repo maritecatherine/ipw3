@@ -1,0 +1,1 @@
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> 
