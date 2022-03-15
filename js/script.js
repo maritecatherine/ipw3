@@ -21,7 +21,7 @@ $(document).ready(function(e){
             $(".text").addClass("overlay");
     });
     });*/
-    $("#portfolio img").mouseover(function(){
+    $("#portfolio,img").mouseover(function(){
         $("overlay").show();
       }).mouseout(function(){
         $("overlay").hide();
