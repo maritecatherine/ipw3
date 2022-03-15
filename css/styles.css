@@ -97,3 +97,27 @@ body{
     background-color: rgba(0, 0, 0, .2);
   
 }
+.row{
+    row-gap: 20px;
+}
+.column{
+    height: 100px;
+    column-gap: 10px;
+    
+}
+.col-3 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.section2{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    position: relative;
+    background-position: center;
+    padding-bottom: 50px;
+   
+
+}
