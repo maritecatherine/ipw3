@@ -18,3 +18,8 @@ body{
     height: 130vh;
     
 }
+.logo{
+    left: 616px;
+    top: 230px;
+    position: absolute;   
+}
