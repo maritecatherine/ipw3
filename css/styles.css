@@ -86,20 +86,25 @@ body{
 #portfolio img{
     position: relative;
 }
-.text{
+.overlay{
+    display: none;
     position: absolute;
+    text-align: center;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     border: #FFFFFF solid 4px;
-    padding: 2rem;
+    width: 100%;
+    height: 100%;
     font-weight: bold;
     color: white;
     z-index: 2;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(236, 232, 232, 0.2);
   
 }
-#overlay{ display: none;}
+.overlay{ 
+    display: none;
+}
 .row{
     row-gap: 20px;
 }

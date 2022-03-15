@@ -10,12 +10,23 @@ $(document).ready(function(e){
     $("#product, #prod-icon").click(function(){
         $("#prod-icon, #product").toggle();
     });
-    $("#portfolio").children().children().hover(function () {
-        $("p", this).toggle();
-        $("img", this).toggleClass("on-hover");
     
+    /*
+    $("#work1").hover(function(){
+        $(this).stop().animate({opacity: .4},200);
+        $(".text").removeClass("overlay");
+    },function(){
+        $(this).stop().animate({
+            opacity: 1},500);
+            $(".text").addClass("overlay");
     });
-    
+    });*/
+    $("#portfolio img").mouseover(function(){
+        $("overlay").show();
+      }).mouseout(function(){
+        $("overlay").hide();
+      });
+
     
 
 
