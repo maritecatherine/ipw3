@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function(e){
+    e.preventDefault();
     $("#design, #des-icon").click(function(){
         $("#des-icon, #design").toggle();
     });
@@ -14,6 +15,7 @@ $(document).ready(function(){
         $("img", this).toggleClass("on-hover");
     
     });
+    
     
 
 
