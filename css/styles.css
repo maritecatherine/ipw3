@@ -23,3 +23,11 @@ body{
     top: 230px;
     position: absolute;   
 }
+.welcome{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 436px;
+    left: 370px;
+    
+}
