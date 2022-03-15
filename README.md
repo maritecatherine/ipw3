@@ -1,5 +1,5 @@
-# Akan Name Generator webpage
-*A webpage that allow user their date of birth to get their Akan names.
+# Delani Studio
+*Delani Studio services.
 #### Author
 **Catherine Marite
 ## Description
