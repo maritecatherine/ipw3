@@ -1,1 +1,20 @@
-<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='MESSAGE';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> 
+$(document).ready(function(){
+    $("#design, #des-icon").click(function(){
+        $("#des-icon, #design").toggle();
+    });
+
+    $("#development, #dev-icon").click(function(){
+        $("#dev-icon, #development").toggle();
+    });
+    $("#product, #prod-icon").click(function(){
+        $("#prod-icon, #product").toggle();
+    });
+    $("#portfolio").children().children().hover(function () {
+        $("p", this).toggle();
+        $("img", this).toggleClass("on-hover");
+    
+    });
+    
+
+
+});

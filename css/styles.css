@@ -135,3 +135,10 @@ input[type=text],input[type=email]{
     background: transparent;
     color: white;
 }
+footer{
+    text-align: center;
+}
+.social{
+    display: inline;
+
+}
