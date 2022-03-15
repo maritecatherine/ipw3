@@ -31,3 +31,13 @@ body{
     left: 370px;
     
 }
+.one{
+    position: absolute;
+    top: -85px;
+    left: 180px;
+}    
+.mouse-click{
+    cursor: pointer;
+    margin-top: 115vh;
+    
+}
