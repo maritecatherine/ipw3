@@ -61,3 +61,25 @@ body{
     color: white;   
 
 }
+#development, #product, #design{
+    display: none;
+
+}
+.what{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 150px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 50vh;
+    
+}
+.what h6{
+    padding-bottom: 38px;
+}
+.container{
+    text-align: center;
+
+    
+}
