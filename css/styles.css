@@ -47,7 +47,7 @@ body{
  
 }
 .section{
-    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-image: url(/backgrounds/s_image.jpg);
     height: 390px;
     background-repeat: no-repeat;
     background-size: cover;
