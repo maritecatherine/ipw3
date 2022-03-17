@@ -1,5 +1,5 @@
-$(document).ready(function(e){
-    e.preventDefault();
+$(document).ready(function(){
+
     $("#design, #des-icon").click(function(){
         $("#des-icon, #design").toggle();
     });
@@ -12,21 +12,21 @@ $(document).ready(function(e){
     });
     
     /*
-    $("#work1").hover(function(){
+    $("#portfolio").hover(function(){
         $(this).stop().animate({opacity: .4},200);
         $(".text").removeClass("overlay");
     },function(){
         $(this).stop().animate({
             opacity: 1},500);
             $(".text").addClass("overlay");
-    });
+    
     });*/
-    $("#portfolio,img").mouseover(function(){
-        $("overlay").show();
-      }).mouseout(function(){
-        $("overlay").hide();
-      });
-
+    $("#portfolio").children().children().hover(function () {
+        $(".text", this).toggle();
+        $("img", this).toggleClass("on-hover");
+    
+    });
+    
     
 
 
